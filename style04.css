@@ -1,0 +1,122 @@
+html {
+    background-color: #0099B9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 40px 20px;
+}
+
+.container-irregular {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bloco {
+    font-family: 'Arial';
+    color: #413733;
+    padding: 25px;
+    border: 2px solid #413733;
+    background-color: #ECECEC;
+    border-radius: 8px;
+}
+
+.grupo-esquerda {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna-direita {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.topo-largo {
+    text-align: center;
+}
+
+.topo-largo h1 {
+    color: #0099B9;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.subgrupo-inferior {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.caixa-destaque {
+    flex: 1.5;
+    text-align: center;
+}
+
+.caixa-destaque h2 {
+    color: #0099B9;
+    margin-bottom: 10px;
+}
+
+.subgrupo-pilha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mini-card {
+    flex: 1;
+    padding: 15px;
+}
+
+.mini-card h3 {
+    font-size: 14px;
+    color: #0099B9;
+    margin-bottom: 5px;
+}
+
+.mini-card p {
+    font-size: 13px;
+}
+
+.coluna-direita h2 {
+    color: #0099B9;
+    margin-bottom: 15px;
+}
+
+.coluna-direita p {
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.botao-conectar {
+    display: inline-block;
+    background-color: #0099B9;
+    color: #413733;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px auto 0 auto;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.botao-conectar:hover {
+    background-color: #00E2FC;
+    color: #413733;
+}
